@@ -30,5 +30,14 @@ cd xeuledoc/
 python3 setup.py install
 ```
 
+### With Docker
+```sh
+# Build the Docker image
+docker build -t xeuledoc .
+
+# Run the container
+docker run --rm xeuledoc https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms
+```
+
 ## 📝 License
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.fr.html)
